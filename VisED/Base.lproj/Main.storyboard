@@ -18,13 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kMO-dt-ZNy">
-                                <rect key="frame" x="166" y="49" width="85" height="21"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background_Geometry_23.png" translatesAutoresizingMaskIntoConstraints="NO" id="eTa-z4-Rhf">
+                                <rect key="frame" x="-495" y="-42" width="1338" height="712"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Place for Game Logo " translatesAutoresizingMaskIntoConstraints="NO" id="ynR-Kx-xnP">
+                                <rect key="frame" x="-98" y="-55" width="663" height="353"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Text" translatesAutoresizingMaskIntoConstraints="NO" id="CL1-aA-eqk">
+                                <rect key="frame" x="100" y="61" width="149" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -32,6 +37,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="669.60000000000002" y="118.29085457271366"/>
         </scene>
         <!--ARworld-->
         <scene sceneID="GqF-Gf-mSI">
@@ -61,4 +67,9 @@
             <point key="canvasLocation" x="1229.5999999999999" y="95.802098950524751"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Background_Geometry_23.png" width="1920" height="1334"/>
+        <image name="Place for Game Logo " width="728" height="319"/>
+        <image name="Text" width="203" height="135"/>
+    </resources>
 </document>
