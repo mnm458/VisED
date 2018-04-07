@@ -36,7 +36,7 @@
         <!--ARworld-->
         <scene sceneID="GqF-Gf-mSI">
             <objects>
-                <viewController id="Rho-UO-OOc" sceneMemberID="viewController">
+                <viewController id="Rho-UO-OOc" customClass="arSceneViewController" customModule="VisED" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="al2-Ws-RVx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -55,6 +55,9 @@
                         <viewLayoutGuide key="safeArea" id="cdx-vw-6gX"/>
                     </view>
                     <navigationItem key="navigationItem" title="ARworld" id="44l-93-d83"/>
+                    <connections>
+                        <outlet property="arView" destination="3SU-SG-sfD" id="Rlb-BF-Z9P"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RgO-bf-gv3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
